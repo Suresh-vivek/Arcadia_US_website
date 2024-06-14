@@ -9,10 +9,11 @@ export default function Landing() {
         <h1 style={{margin: "0px"}} className="text-xl sm:text-2xl md:text-3xl font-bold pl-2 text-white sm:pl-4">Arcadia Hospitality</h1>
       </div>
       <div className="mt-20 sm:mt-20 md:mt-40">
-        <h1 className="text-lg sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white" style={{ textShadow: '1px 1px 2px #000000' }}>
+        <h1 className="text-lg sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white loading sm:mb-3" style={{ textShadow: '1px 1px 2px #000000' }}>
           Streamlining Hospitality
-          <br />
-          Operations with the Power of AI
+        </h1>
+        <h1 className="text-lg sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white loading" style={{ textShadow: '1px 1px 2px #000000' }}>
+        Operations with the Power of AI
         </h1>
       </div>
     </div>
