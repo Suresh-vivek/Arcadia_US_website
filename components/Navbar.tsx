@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-transparent text-white p-4 flex justify-between sm:justify-center items-center">
+      <nav className="bg-transparent text-white p-4 flex justify-between sm:justify-center items-center fixed right-0 sm:left-1/2 sm:right-1/2 z-10">
         <div className="flex justify-center items-center sm:space-x-10">
           {/* Existing menu items, hidden on mobile */}
             <div className="hidden sm:flex space-x-10">
@@ -23,7 +23,7 @@ const Navbar = () => {
         </button>
       </nav>
       {/* Sidebar */}
-      <div className={`${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} sm:hidden absolute top-0 right-0 h-full w-3/4 bg-white shadow-md transition-transform duration-300 ease-in-out`}>
+      <div className={`${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} sm:hidden fixed top-0 right-0 h-full w-3/4 bg-white shadow-md transition-transform duration-300 ease-in-out z-10`}>
         <button className="p-4" onClick={() => setIsMobileMenuOpen(false)}>
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
         </button>
