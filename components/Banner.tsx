@@ -9,7 +9,7 @@ export default function Banner() {
       </div>
       <div className='text-lg sm:text-xl md:text-2xl'>
         <h1>Boost efficiency, optimize tasks and enhance guest</h1>
-        <h1>experiences with Arcadia's innovative AI-driven solutions</h1>
+        <h1>experiences with Arcadia&apos;s innovative AI-driven solutions</h1>
       </div>
     </div>
   )
