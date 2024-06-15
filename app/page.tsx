@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Landing from "@/components/Landing";
+import TicketBanner from "@/components/TicketBanner";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main>
       <Landing />
       <Banner />
+      <TicketBanner />
     </main>
   );
 }
