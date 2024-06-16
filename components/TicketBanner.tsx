@@ -33,7 +33,7 @@ export default function TicketBanner() {
             viewBox="0 0 25 25"
             width="50"
             height="50"
-            className="w-12 h-12 sm:w-24 sm:h-24"
+            className="w-12 h-12 sm:w-24 sm:h-24 text-[#4b4b4b]"
           >
             <path
               d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
@@ -41,7 +41,7 @@ export default function TicketBanner() {
             />
           </svg>
         </motion.div>
-          <div>AI Creating the Ticket Order</div>
+          <div className="text-[#4b4b4b]">AI Creating the Ticket Order</div>
       </div>
       <motion.div
         initial="hidden"
