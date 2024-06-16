@@ -15,7 +15,7 @@ export default function Banner() {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ type: 'spring', stiffness: 60 }}
+      transition={{ type: 'spring', stiffness: 20 }}
       variants={bannerVariants}
     >
       <h1>Machine Learning</h1>
@@ -26,7 +26,7 @@ export default function Banner() {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ type: 'spring', stiffness: 60 }}
+      transition={{ type: 'spring', stiffness: 20 }}
       variants={bannerVariants}
     >
       <h1>Boost efficiency, optimize tasks and enhance guest</h1>
