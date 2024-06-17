@@ -14,7 +14,7 @@ export default function TicketBanner() {
   return (
     <div className="bg-[#e8e8e8] w-full px-4 sm:px-10 md:px-20 lg:px-40 flex flex-col sm:flex-row py-4 items-center">
       <Image
-        src="/Image1.png"
+        src="/Image1.jpg"
         alt="Image1"
         width={500}
         height={500}
