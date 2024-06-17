@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Dining from "@/components/Dining";
 import Engineering from "@/components/Engineering";
 import HotelServicesMap from "@/components/HotelService";
 import Housekeeping from "@/components/Housekeeping";
@@ -21,6 +22,7 @@ export default function Home() {
       <HotelServicesMap />
       <Housekeeping />
       <Engineering />
+      <Dining />
     </main>
   );
 }

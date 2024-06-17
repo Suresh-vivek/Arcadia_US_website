@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 const HotelServicesMap = () => {
   const [hoveredService, setHoveredService] = useState(null);
@@ -41,13 +42,16 @@ const HotelServicesMap = () => {
             ></div>
           </div>
         </div>
-        <div
+        <motion.div
           className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 cursor-pointer mt-4"
           onMouseEnter={() => handleMouseEnter("Front Desk/Guest Services")}
           onMouseLeave={handleMouseLeave}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
         >
           Front Desk/Guest Services
-        </div>
+        </motion.div>
       </div>
       <div className="w-full flex flex-col md:flex-row justify-around">
         <div className="flex flex-col items-center mb-4 gap-4">
@@ -73,13 +77,16 @@ const HotelServicesMap = () => {
               ></div>
             </div>
           </div>
-          <div
+          <motion.div
             className="text-xl md:text-2xl lg:text-3xl font-bold cursor-pointer"
             onMouseEnter={() => handleMouseEnter("Concierge")}
             onMouseLeave={handleMouseLeave}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
           >
             Concierge
-          </div>
+          </motion.div>
           <div
             className={`flex justify-center w-full space-x-32 ${
               hoveredService === "Concierge" ? "opacity-1" : "opacity-0"
@@ -118,13 +125,16 @@ const HotelServicesMap = () => {
               ></div>
             </div>
           </div>
-          <div
+          <motion.div
             className="text-xl md:text-2xl lg:text-3xl font-bold cursor-pointer mt-12"
             onMouseEnter={() => handleMouseEnter("Bell")}
             onMouseLeave={handleMouseLeave}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
           >
             Bell
-          </div>
+          </motion.div>
           <div
             className={`flex justify-center w-full space-x-12 sm:space-x-24 ${
               hoveredService === "Bell" ? "opacity-1" : "opacity-0"
