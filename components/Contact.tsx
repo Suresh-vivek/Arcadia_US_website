@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div className="relative w-full min-h-[66vh] sm:h-screen">
+    <div className="relative w-full min-h-[66vh] sm:h-screen select-none">
       <div className="absolute inset-0 z-0">
         <Image
           src={"/Contact.png"}

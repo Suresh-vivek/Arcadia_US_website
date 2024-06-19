@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Dining() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center text-[#4b4b4b]">
+    <div className="w-full min-h-screen flex flex-col items-center text-[#4b4b4b] select-none">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

@@ -9,7 +9,7 @@ const bannerVariants = {
 
 export default function Banner() {
   return (
-    <div className='flex flex-col sm:flex-row px-4 sm:px-10 md:px-20 lg:px-40 py-8 sm:py-12 md:py-16 justify-between items-center text-[#4c4c4c]'>
+    <div className='flex flex-col sm:flex-row px-4 sm:px-10 md:px-20 lg:px-40 py-8 sm:py-12 md:py-16 justify-between items-center text-[#4c4c4c] select-none'>
       <motion.div
       className='text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-0'
       initial="hidden"

@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Stats() {
   return (
-    <div className="relative mb-4">
+    <div className="relative mb-4 select-none">
       <img
         className="z-[-1] w-auto h-96 sm:w-full sm:h-full aspect-auto object-fill object-center"
         src="/Stat.png"

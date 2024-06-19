@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Landing() {
   return (
-    <div className="relative w-full h-[66vh] sm:min-h-screen px-4 sm:px-10 md:px-20 lg:px-40 py-10 md:py-20">
+    <div className="relative w-full h-[66vh] sm:min-h-screen px-4 sm:px-10 md:px-20 lg:px-40 py-10 md:py-20 select-none">
       <Image
         className="z-[-1]"
         src="/Landing.png"
