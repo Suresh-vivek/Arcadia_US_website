@@ -5,7 +5,7 @@ export default function LobbyLounge() {
   return (
     <>
       <div>
-        <h1 className=" text-2xl sm:text-5xl py-10 text-center text-[#113854] font-bold">
+        <h1 className=" text-2xl sm:text-5xl py-10 text-center text-[#113854] font-bold select-none">
           Lobby Lounge
         </h1>
       </div>
@@ -18,7 +18,7 @@ export default function LobbyLounge() {
             alt="Lobby"
           />
         </div>
-        <div className="relative z-10 flex flex-col sm:flex-row justify-center sm:space-x-8 items-center h-full">
+        <div className="relative z-10 flex flex-col sm:flex-row justify-center sm:space-x-8 items-center h-full select-none">
           <div className="bg-white flex text-center justify-center items-center  w-52 sm:w-80 h-48 sm:p-4 m-3 sm:m-2 rounded-lg px-4 sm:px-6 sm:py-8 text-sm sm:text-xl font-semibold">
             Guest orders Food and Beverage to the Lobby Lounge via Chatbot
           </div>
