@@ -29,75 +29,79 @@ export default function Dining() {
         <div className="flex">
           <div className="flex flex-col justify-around space-y-20 sm:space-y-20">
             <div className="flex flex-col justify-center sm:items-center">
-              <motion.svg
+              <motion.div
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 25 25"
-                width="50"
-                height="50"
-                className="w-12 h-12 sm:w-24 sm:h-24"
+                className="flex justify-center"
               >
-                <path
-                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                  data-name="Right"
+                <Image
+                  src="/arrow2.svg"
+                  width={50}
+                  height={100}
+                  alt="Image3"
+                  className="text-blue-200"
+                  style={{ transform: "rotate(270deg)" }}
                 />
-              </motion.svg>
+              </motion.div>
               <motion.h1
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-               className="text-center text-xs sm:text-base text-nowrap">
+                className="text-center text-xs sm:text-base text-nowrap"
+              >
                 Server Receives Order
               </motion.h1>
             </div>
             <div className="flex flex-col justify-center sm:items-center">
-              <motion.svg
+              <motion.div
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 25 25"
-                width="50"
-                height="50"
-                className="w-12 h-12 sm:w-24 sm:h-24"
+                className="flex justify-center"
+
               >
-                <path
-                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                  data-name="Right"
+                <Image
+                  src="/arrow2.svg"
+                  width={50}
+                  height={100}
+                  alt="Image3"
+                  className="text-blue-200"
+                  style={{ transform: "rotate(270deg)" }}
                 />
-              </motion.svg>
+              </motion.div>
               <motion.h1
                 initial={{ x: -100, opacity: 0 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 1 }}
-               className="text-center text-xs sm:text-base text-nowrap">
+                className="text-center text-xs sm:text-base text-nowrap"
+              >
                 Kitchen Receives Order
               </motion.h1>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <motion.svg
+            <motion.div
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 25 25"
-              width="50"
-              height="50"
-              className="w-12 h-12 sm:w-24 sm:h-24"
+              className="flex justify-center"
             >
-              <path
-                d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                data-name="Right"
+              <Image
+                src="/arrow2.svg"
+                width={50}
+                height={100}
+                alt="Image3"
+                className="text-blue-200"
+                style={{ transform: "rotate(270deg)" }}
               />
-            </motion.svg>
+            </motion.div>
             <motion.h1
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1 }}
-             className="text-center text-xs sm:text-base">
+              className="text-center text-xs sm:text-base"
+            >
               Server Picks up Order from Kitchen and <br /> Delivers to the
               guest
             </motion.h1>
