@@ -6,7 +6,7 @@ export default function Housekeeping() {
   return (
     <div
       id="housekeeping"
-      className="relative w-full h-screen bg-[#e8e8e8] text-[#070708]"
+      className="relative w-full h-screen bg-[#e8e8e8] text-[#070708] select-none"
     >
       <div className="group">
         <div className="flex flex-col justify-center items-center gap-6 absolute top-[35%] left-[25%] sm:left-[35%] text-xs sm:text-md md:text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">

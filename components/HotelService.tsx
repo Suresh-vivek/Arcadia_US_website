@@ -14,7 +14,7 @@ const HotelServicesMap = () => {
   };
 
   return (
-    <div id="frontdesk" className="relative bg-black text-white p-4 md:p-8 lg:p-12 flex flex-col space-y-10 md:space-y-20 lg:space-y-40">
+    <div id="frontdesk" className="relative bg-black text-white p-4 md:p-8 lg:p-12 flex flex-col space-y-10 md:space-y-20 lg:space-y-40 select-none">
       <div className="flex flex-col items-center">
         <div
           className={`flex space-x-2 md:flex-row justify-center w-full md:space-x-20 lg:space-x-40 ${
