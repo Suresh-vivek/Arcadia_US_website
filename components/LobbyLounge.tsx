@@ -19,13 +19,13 @@ export default function LobbyLounge() {
           />
         </div>
         <div className="relative z-10 flex flex-col sm:flex-row justify-center sm:space-x-8 items-center h-full">
-          <div className="bg-white flex text-center justify-center items-center p-2 w-56 sm:w-80 h-56 sm:p-4 m-1 sm:m-2 rounded-lg px-4 sm:px-6 py-6 sm:py-8 text-base sm:text-xl font-semibold">
+          <div className="bg-white flex text-center justify-center items-center  w-52 sm:w-80 h-48 sm:p-4 m-3 sm:m-2 rounded-lg px-4 sm:px-6 sm:py-8 text-sm sm:text-xl font-semibold">
             Guest orders Food and Beverage to the Lobby Lounge via Chatbot
           </div>
-          <div className="bg-white p-2 text-center flex justify-center items-center w-56 sm:w-80 h-56 sm:p-4 m-1 sm:m-2 rounded-lg px-4 sm:px-6 py-6 sm:py-8 text-base sm:text-xl font-semibold">
+          <div className="bg-white  text-center flex justify-center items-center w-52 sm:w-80 h-48 sm:p-4 m-3 sm:m-2 rounded-lg px-4 sm:px-6 sm:py-8 text-sm sm:text-xl font-semibold">
             Ticket Created for Bar/Kitchen and Server
           </div>
-          <div className="bg-white p-2 text-center flex justify-center items-center w-56 sm:w-80 h-56 sm:p-4 m-1 sm:m-2 rounded-lg px-4 sm:px-6 py-6 sm:py-8 text-base sm:text-xl font-semibold">
+          <div className="bg-white  text-center flex justify-center items-center w-52 sm:w-80 h-48 sm:p-4 m-3 sm:m-2 rounded-lg px-4 sm:px-6 sm:py-8 text-sm sm:text-xl font-semibold">
             Server Delivers to the Guest
           </div>
         </div>

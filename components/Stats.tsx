@@ -9,7 +9,7 @@ export default function Stats() {
         src="/Stat.png"
         alt="Landing Image"
       />
-      <div className="absolute top-1/3 sm:top-1/2 sm:left-1/2 transform sm:-translate-x-1/2 -translate-y-1/2 sm:w-2/5 h-2/5 border rounded-lg flex items-center justify-center">
+      <div className="absolute top-1/3 left-[8%] sm:top-1/2 sm:left-1/2 transform sm:-translate-x-1/2 -translate-y-1/2 sm:w-2/5 h-2/5 border rounded-lg flex items-center justify-center">
         <div className="flex flex-wrap justify-between items-center w-full h-full text-white text-xl sm:text-3xl font-bold">
           <div className="w-1/2 h-1/2 border flex justify-center items-center ">2023</div>
           <div className="w-1/2 h-1/2 border flex justify-center items-center ">4.46 Billion</div>

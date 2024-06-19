@@ -6,7 +6,7 @@ export default function Engineering() {
   return (
     <div
       id="engineering"
-      className="relative w-full h-screen bg-[#113854] text-white"
+      className="relative w-full h-screen bg-[#113854] text-white select-none"
     >
       <div className="group">
         <div className="absolute top-[42%] sm:top-[32%] left-[45%] sm:left-[47%] text-xs sm:text-md md:text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300">
