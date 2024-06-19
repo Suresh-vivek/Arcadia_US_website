@@ -23,7 +23,7 @@ export default function Contact() {
           </p>
         </div>
         <div className="flex flex-col justify-center sm:w-1/2 items-center h-full mt-6 sm:mt-0">
-          <Image className="sm:aspect-square sm:w-80" src={"/qr.png"} alt="qr" width={250} height={400} />
+          <Image className="" src={"/qr.png"} alt="qr" width={400} height={400} />
             <h1 className=" text-xl sm:text-3xl font-semibold mt-4">Arcadia Demo Chatbot</h1>
         </div>
       </div>

@@ -26,7 +26,7 @@ export default function Poolside() {
                 alt="Lobby"
             />
         </div>
-        <div className="absolute z-10 flex flex-col justify-center sm:space-x-8 items-center h-full left-[5%] sm:left-1/4">
+        <div className="absolute z-10 flex flex-col justify-center items-center h-full left-[5%] sm:left-1/4">
           <div className="bg-white flex text-center justify-center items-center w-72 sm:w-full h-1/4 sm:h-32 sm:p-4 m-1 sm:m-2 rounded-lg px-4 sm:px-6 py-6 sm:py-8 text-sm sm:text-xl font-semibold">
             Guest orders Food and Beverage to the Lobby Lounge via Chatbot
           </div>
