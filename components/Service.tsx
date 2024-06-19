@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Service() {
   return (
-    <div className="relative w-full h-[66vh] sm:h-screen select-none">
+    <div className="relative w-full h-[66vh] sm:h-screen select-none mb-8">
       <div className="absolute inset-0 z-0">
         <Image
           src={"/Service.png"}

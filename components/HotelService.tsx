@@ -54,7 +54,7 @@ const HotelServicesMap = () => {
         </motion.div>
       </div>
       <div className="w-full flex flex-col md:flex-row justify-around">
-        <div className="flex flex-col items-center mb-4 gap-4">
+        <div className="flex flex-col items-center sm:mb-4 gap-4 -mb-6">
           <div
             className={`flex space-x-4 justify-center w-full md:space-x-32 ${
               hoveredService === "Concierge" ? "opacity-100" : "opacity-0"
