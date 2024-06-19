@@ -44,6 +44,7 @@ export default function TicketBanner() {
           <div className="text-[#4b4b4b]">AI Creating the Ticket Order</div>
       </div>
       <motion.div
+      className="flex justify-center"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
