@@ -4,6 +4,9 @@ import React from "react";
 export default function Stats() {
   return (
     <div className="relative mb-4 select-none">
+      <div className="absolute  sm:text-5xl text-white left-[18%] sm:left-[27 %] top-[5%]">
+        Hospitality Software Market Size
+      </div>
       <img
         className="z-[-1] w-auto h-96 sm:w-full sm:h-full aspect-auto object-fill object-center"
         src="/Stat.png"
