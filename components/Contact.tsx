@@ -24,8 +24,9 @@ export default function Contact() {
             <p className="text-xs sm:text-lg font-semibold">
               Email Address: daniel@arcadiahospitality.ai
             </p>
+            <p className="text-xs sm:text-lg font-semibold">Nikhil Jha</p>
             <p className="text-xs sm:text-lg font-semibold">
-              nikhil@arcadiahospitality.ai
+              Email Address: nikhil@arcadiahospitality.ai
             </p>
           </div>
           <div className="">
