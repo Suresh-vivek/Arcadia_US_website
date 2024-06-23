@@ -27,7 +27,7 @@ export default function TicketBanner() {
           variants={imageVariants}
           className=""
         >
-         <Image  src="/grey1.svg" width={50} height={100} alt="Image3" /> 
+         <Image  src="/arrow2.svg" width={50} height={100} alt="Image3" style={{rotate: "270deg"}} /> 
         </motion.div>
         <div className="text-[#4b4b4b] text-nowrap">
           AI Creating the Ticket Order
