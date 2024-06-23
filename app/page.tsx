@@ -25,9 +25,9 @@ export default function Home() {
       <HotelServicesMap />
       <Housekeeping />
       <Engineering />
-      <Dining />
-      <LobbyLounge />
-      <Poolside />
+      {/* <Dining /> */}
+      {/* <LobbyLounge /> */}
+      {/* <Poolside /> */}
       <Contact />
     </main>
   );

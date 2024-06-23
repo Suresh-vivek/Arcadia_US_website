@@ -22,10 +22,10 @@ export default function Contact() {
             </h1>
             <p className="text-xs sm:text-lg font-semibold">Daniel Lee</p>
             <p className="text-xs sm:text-lg font-semibold">
-              Mobile Number: 949-929-3234
+              Email Address: daniel@arcadiahospitality.ai
             </p>
             <p className="text-xs sm:text-lg font-semibold">
-              Email Address: daniel@arcadiahospitality.ai
+              nikhil@arcadiahospitality.ai
             </p>
           </div>
           <div className="">
