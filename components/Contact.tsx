@@ -15,7 +15,7 @@ export default function Contact() {
         />
       </div>
       <div className="relative z-10 flex flex-col sm:flex-row w-full text-white h-full p-4 sm:p-0">
-        <div className="flex-1 flex flex-col gap-20 items-center sm:w-1/2 sm:ml-20 sm:mt-20">
+        <div className="flex-1 flex flex-col gap-10 items-center sm:w-1/2 sm:ml-20 sm:mt-20">
           <div className="mb-5">
             <h1 className="font-bold text-3xl sm:text-5xl mb-4 text-nowrap">
               Contact Us
