@@ -34,8 +34,8 @@ export default function Contact() {
               className=""
               src={"/qr.png"}
               alt="qr"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
             />
             <h1 className=" text-xl sm:text-3xl font-semibold mt-4 text-center">
               Arcadia Demo Chatbot
