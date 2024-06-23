@@ -111,7 +111,7 @@ export default function Page() {
               using AI and chatbots.
             </p>
             <p className="text-sm md:text-base">
-              Arcadia's platform comprises a guest chatbot, a mobile app for
+              Arcadia&apos;s platform comprises a guest chatbot, a mobile app for
               employees, and a desktop application for admins. The chatbot
               allows guests to request services and report issues, which are
               assigned to staff based on proximity and workload. The mobile app
