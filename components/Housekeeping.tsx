@@ -53,7 +53,7 @@ export default function Housekeeping() {
           className="absolute top-[60%] sm:top-[63%] left-[50%] sm:left-[63%] bg-[#070708] h-1 w-24 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           style={{ transform: "rotate(90deg)" }}
         ></div>
-        <div className="text-xs sm:text-md md:text-xl absolute top-[60%] sm:top-[62%] left-[5%] sm:left-[20%] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+        <div className="text-xs sm:text-md md:text-xl absolute top-[60%] sm:top-[62%] left-[5%] sm:left-[17%] opacity-0 group-hover:opacity-100 transition-opacity duration-300">
           Towel Delivery
         </div>
         <div className="text-xs sm:text-md md:text-xl absolute top-[79%] sm:top-[77%] left-[5%] sm:left-[37%] opacity-0 group-hover:opacity-100 transition-opacity duration-300">

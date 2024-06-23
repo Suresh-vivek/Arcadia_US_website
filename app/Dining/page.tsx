@@ -89,7 +89,7 @@ export default function Dining() {
             >
               <Image
                 src="/arrow2.svg"
-                width={50}
+                width={75}
                 height={100}
                 alt="Image3"
                 className="text-blue-200"
