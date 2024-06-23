@@ -48,7 +48,7 @@ const Form = () => {
             <Grid item xs={12} md={6}>
               <Typography variant="h4" gutterBottom>
                 <span style={{ fontSize: "40px", color: "#333" }}>
-                  Get in contact {name}
+                  Get in contact
                 </span>
               </Typography>
               <Typography variant="body1" gutterBottom>
