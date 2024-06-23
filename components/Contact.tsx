@@ -5,7 +5,7 @@ import Form from "./Form";
 
 export default function Contact() {
   return (
-    <div className="relative w-full min-h-[66vh] sm:h-screen select-none">
+    <div id="contact" className="relative w-full min-h-[66vh] sm:h-screen select-none">
       <div className="absolute inset-0 z-0">
         <Image
           src={"/Contact.png"}

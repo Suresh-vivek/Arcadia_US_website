@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <div className="relative w-full h-[66vh] sm:h-screen select-none mb-10">
+    <div id="guest" className="relative w-full h-[66vh] sm:h-screen mb-10">
       <div className="absolute inset-0 z-0">
         <Image
           src={"/Projects.png"}
