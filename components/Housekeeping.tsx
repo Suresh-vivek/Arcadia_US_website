@@ -42,7 +42,7 @@ export default function Housekeeping() {
         </motion.div>
 
         <div
-          className="absolute top-[55%] sm:top-[58%] left-[10%] sm:left-[28%] bg-[#070708] h-1 w-24 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+          className="absolute top-[55%] sm:top-[59%] left-[10%] sm:left-[27%] bg-[#070708] h-1 w-24 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
           style={{ transform: "rotate(150deg)" }}
         ></div>
         <div
