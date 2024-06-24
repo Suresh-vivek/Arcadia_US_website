@@ -22,9 +22,9 @@ export default function Home() {
       <Stats />
       <Projects />
       <Service />
-      <HotelServicesMap />
-      <Housekeeping />
-      <Engineering />
+      {/* <HotelServicesMap /> */}
+      {/* <Housekeeping /> */}
+      {/* <Engineering /> */}
       {/* <Dining /> */}
       {/* <LobbyLounge /> */}
       {/* <Poolside /> */}
