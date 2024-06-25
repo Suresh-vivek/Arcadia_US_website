@@ -15,6 +15,6 @@ export async function POST(req: NextRequest, res: NextResponse) {
     return new NextResponse("POST request successful");
   } catch (error) {
     console.log(error);
-    return new NextResponse("POST request failed");
+    return new NextResponse("POST request failed", error as ResponseInit);
   }
 }
