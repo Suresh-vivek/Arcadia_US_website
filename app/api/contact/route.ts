@@ -8,7 +8,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     await transporter.sendMail({
       from: email,
       replyTo: email,
-      to: "svivek.kumar012@gmail.com",
+      to: "nikhiljha28900@gmail.com",
       subject: `New message from ${firstname} ${lastname} regarding ${helpTopic}`,
       text: `Name: ${firstname} ${lastname} \n Email: ${email} \n Help Topic: ${helpTopic} \n Message: ${message}`,
     });
