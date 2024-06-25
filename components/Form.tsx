@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import React, { useState } from "react";
 import {
   Box,
@@ -17,13 +17,38 @@ import {
   MenuItem,
 } from "@mui/material";
 import { CheckCircle, Person, Email, Phone, Note } from "@mui/icons-material";
+import { handlePostRequest } from "@/lib/handlereq";
 
 const Form = () => {
-  const [name, setName] = useState("");
-  const nameFun = (event: any) => {
-    console.log(event.target.value);
-    setName(event.target.value);
+  const [formData, setFormData] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    message: "",
+    helpTopic: "",
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value,
+    });
   };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    await handlePostRequest(formData);
+    console.log("Form submitted");
+    console.log(formData);
+    setFormData({
+      firstname: "",
+      lastname: "",
+      email: "",
+      message: "",
+      helpTopic: "",
+    });
+  };
+
   return (
     <>
       <Container
@@ -77,7 +102,7 @@ const Form = () => {
               </List>
             </Grid>
             <Grid item xs={12} md={6}>
-              <form noValidate autoComplete="off">
+              <form noValidate autoComplete="off" onSubmit={handleSubmit}>
                 <Grid container spacing={2}>
                   <Grid item xs={12}>
                     <FormControl fullWidth margin="normal">
@@ -86,10 +111,12 @@ const Form = () => {
                       </InputLabel>
                       <Select
                         labelId="help-label"
-                        id="help-select"
+                        id="helpTopic"
                         defaultValue=""
                         label="What can we help you with?"
-                        
+                        name="helpTopic"
+                        value={formData.helpTopic}
+                        onChange={(e) => setFormData({ ...formData, helpTopic: e.target.value })}
                         sx={{
                           "& .MuiOutlinedInput-root": {
                             "& fieldset": {
@@ -144,7 +171,9 @@ const Form = () => {
                       label="First Name"
                       margin="normal"
                       required
-                      onChange={nameFun}
+                      id="firstname"
+                      value={formData.firstname}
+                      onChange={handleChange}
                       InputProps={{
                         startAdornment: (
                           <Person sx={{ mr: 1, color: "#333" }} />
@@ -180,6 +209,9 @@ const Form = () => {
                       label="Last Name"
                       margin="normal"
                       required
+                      id="lastname"
+                      value={formData.lastname}
+                      onChange={handleChange}
                       InputProps={{
                         startAdornment: (
                           <Person sx={{ mr: 1, color: "#333" }} />
@@ -216,8 +248,13 @@ const Form = () => {
                       margin="normal"
                       type="email"
                       required
+                      id="email"
+                      value={formData.email}
+                      onChange={handleChange}
                       InputProps={{
-                        startAdornment: <Email sx={{ mr: 1, color: "#333" }} />,
+                        startAdornment: (
+                          <Email sx={{ mr: 1, color: "#333" }} />
+                        ),
                       }}
                       InputLabelProps={{
                         style: { color: "#333" },
@@ -250,6 +287,9 @@ const Form = () => {
                       margin="normal"
                       multiline
                       rows={4}
+                      id="message"
+                      value={formData.message}
+                      onChange={handleChange}
                       InputProps={{
                         startAdornment: (
                           <Note
@@ -287,6 +327,7 @@ const Form = () => {
                   </Grid>
                 </Grid>
                 <Button
+                  type="submit"
                   variant="contained"
                   color="primary"
                   style={{
