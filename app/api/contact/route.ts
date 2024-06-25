@@ -7,7 +7,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     const { firstname, lastname, email, message, helpTopic } = response;
     await transporter.sendMail({
       from: email,
-      to: 'nikhil@arcadiahospitality.ai',
+      to: 'nikhiljha28900@gmail.com',
       subject: `New message from ${firstname} ${lastname} regarding ${helpTopic}`,
       text: message,
     });
