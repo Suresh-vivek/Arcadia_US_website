@@ -10,7 +10,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
       replyTo: email,
       to: 'nikhiljha28900@gmail.com, Daniel@arcadiahospitality.ai',
       subject: `New message from ${firstname} ${lastname} regarding ${helpTopic}`,
-      text: message,
+      text: `Name: ${firstname} ${lastname} \n Email: ${email} \n Help Topic: ${helpTopic} \n Message: ${message}`,
     });
     console.log(firstname, lastname, email, message, helpTopic);
     return new NextResponse("POST request successful");
